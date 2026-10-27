@@ -1223,6 +1223,8 @@ const I18N = {
     output_volume: 'Output Volume',
     output_level: 'Output Level',
     connecting: 'Connecting…',
+    backend_connected: 'Backend connected',
+    backend_offline: 'Backend offline',
     audio_routing_desc: 'Output device receives your converted voice for other apps. Use headphones to avoid hearing yourself.',
     input_microphone: 'Input Microphone',
     output_device: 'Output Device',
@@ -1279,6 +1281,8 @@ const I18N = {
     output_volume: '出力音量',
     output_level: '出力レベル',
     connecting: '接続中…',
+    backend_connected: 'バックエンド接続済み',
+    backend_offline: 'バックエンドオフライン',
     audio_routing_desc: '出力デバイスは、他のアプリ用に変換された音声を受信します。ハウリングを防ぐためにヘッドホンを使用してください。',
     input_microphone: '入力マイク',
     output_device: '出力デバイス',
@@ -1335,6 +1339,8 @@ const I18N = {
     output_volume: '输出音量',
     output_level: '输出电平',
     connecting: '连接中…',
+    backend_connected: '后端已连接',
+    backend_offline: '后端离线',
     audio_routing_desc: '输出设备接收您转换后的声音以用于其他应用。请使用耳机以避免产生回音。',
     input_microphone: '输入麦克风',
     output_device: '输出设备',
@@ -2206,7 +2212,9 @@ function showSpeakerError(msg) {
 // ════════════════════════════════════════════════════════════
 // BACKEND COMMUNICATION
 // ════════════════════════════════════════════════════════════
-const BACKEND_URL = 'http://127.0.0.1:5005';
+// BEATRICE_BACKEND_URL lets a development copy talk to another backend (for
+// example a mock while taking screenshots) instead of the real one.
+const BACKEND_URL = process.env.BEATRICE_BACKEND_URL || 'http://127.0.0.1:5005';
 
 async function setBackendConfig(params) {
   try {
@@ -2528,6 +2536,18 @@ async function loadAudioDevices() {
   }
 }
 
+// The virtual mic (BlackHole, or VB-CABLE on Windows) was just installed: the backend restarts to see
+// it, so wait for it to answer and reload the lists (output picks the new device).
+ipcRenderer.on('virtual-mic-installed', async () => {
+  for (let attempt = 0; attempt < 40; attempt++) {
+    await new Promise(r => setTimeout(r, 750));
+    if (await loadAudioDevices()) {
+      const hasVirtual = [...outputDeviceSelect.options].some(o => /blackhole|cable/i.test(o.textContent));
+      if (hasVirtual) return;
+    }
+  }
+});
+
 // Refresh devices button — lets users rescan without reopening the app
 const refreshDevicesBtn = document.getElementById('refresh-devices-btn');
 if (refreshDevicesBtn) {
@@ -2569,20 +2589,29 @@ function linearToDb(linear) {
   return `${db.toFixed(0)} dB`;
 }
 
+// The label keeps its i18n key in sync with the state, so a later language
+// refresh (which rewrites every [data-i18n] element) can't put it back to
+// "Connecting…" while the backend is connected.
+function setConnLabel(key) {
+  connLabel.setAttribute('data-i18n', key);
+  const dict = I18N[localStorage.getItem(STORAGE_KEY_LANG)] || I18N.en;
+  connLabel.textContent = dict[key] || I18N.en[key];
+}
+
 function setBackendStatus(online) {
   if (online === backendOnline) return;
   backendOnline = online;
 
   if (online) {
     connDot.className = 'conn-dot connected';
-    connLabel.textContent = 'Backend connected';
+    setConnLabel('backend_connected');
     streamDot.className  = 'status-dot live';
     streamStatusText.textContent = 'Audio Stream Active';
     const badge = document.getElementById('backend-status-badge');
     if (badge) badge.textContent = 'CONNECTED';
   } else {
     connDot.className = 'conn-dot error';
-    connLabel.textContent = 'Backend offline';
+    setConnLabel('backend_offline');
     streamDot.className  = 'status-dot error';
     streamStatusText.textContent = 'Backend Offline';
     inputMeterFill.style.width  = '0%';
