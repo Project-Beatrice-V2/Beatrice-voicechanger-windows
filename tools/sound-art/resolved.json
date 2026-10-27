@@ -1,0 +1,429 @@
+{
+  "preset-bruh": {
+    "none": true
+  },
+  "preset-emotional-damage": {
+    "none": true
+  },
+  "preset-winxp-error": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/64/Windows_XP_Luna.png/500px-Windows_XP_Luna.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Windows XP",
+    "file": "assets/sound-art/36a1446a36.jpg"
+  },
+  "preset-gta-wasted": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Grand Theft Auto V",
+    "file": "assets/sound-art/4e054e013a.jpg"
+  },
+  "preset-sad-violin": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Violin_VL100.png/500px-Violin_VL100.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Violin",
+    "file": "assets/sound-art/10e6720cd3.jpg"
+  },
+  "preset-coffin-dance": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dancing_Pallbearers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Dancing Pallbearers",
+    "file": "assets/sound-art/726e767807.jpg"
+  },
+  "preset-taco-bell": {
+    "file": "assets/sound-art/tacobell.svg",
+    "from": "Simple Icons: Taco Bell"
+  },
+  "preset-curb-robert": {
+    "none": true
+  },
+  "preset-fbi-open-up": {
+    "keep": true
+  },
+  "preset-discord-call": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-join": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-leave": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-mute": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-unmute": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-disconnect": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-discord-ping": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "preset-nani": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2511-I5ff3jioC5Ze.jpg",
+    "from": "AniList: Kenshirou",
+    "file": "assets/sound-art/67100a9e73.jpg"
+  },
+  "preset-za-warudo": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b4004-w0OtWuvjhftG.png",
+    "from": "AniList: Dio Brando",
+    "file": "assets/sound-art/bd1c3a0a2d.jpg"
+  },
+  "preset-tuturu": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png",
+    "from": "AniList: Mayuri Shiina",
+    "file": "assets/sound-art/0aa656883e.jpg"
+  },
+  "preset-dbz-teleport": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+    "from": "AniList: Gokuu Son",
+    "file": "assets/sound-art/a74bc9f52f.jpg"
+  },
+  "preset-naruto-sad": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png",
+    "from": "AniList: Naruto Uzumaki",
+    "file": "assets/sound-art/ac8ee6dd6d.jpg"
+  },
+  "preset-goku-ui": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+    "from": "AniList: Gokuu Son",
+    "file": "assets/sound-art/a74bc9f52f.jpg"
+  },
+  "preset-nico-nii": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b46163-FNug6cIPWxYk.png",
+    "from": "AniList: Nico Yazawa",
+    "file": "assets/sound-art/89a60df707.jpg"
+  },
+  "preset-kono-dio-da": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b4004-w0OtWuvjhftG.png",
+    "from": "AniList: Dio Brando",
+    "file": "assets/sound-art/bd1c3a0a2d.jpg"
+  },
+  "preset-gomu-gomu": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b40-MNypXsxSRb1R.png",
+    "from": "AniList: Luffy Monkey",
+    "file": "assets/sound-art/3976c56783.jpg"
+  },
+  "preset-kamehameha": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+    "from": "AniList: Gokuu Son",
+    "file": "assets/sound-art/a74bc9f52f.jpg"
+  },
+  "preset-tatakae": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg",
+    "from": "AniList: Eren Yeager",
+    "file": "assets/sound-art/6115a6495a.jpg"
+  },
+  "preset-saitama-ok": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b73935-ON5d0mAcrItd.jpg",
+    "from": "AniList: Saitama",
+    "file": "assets/sound-art/dc5b8c843a.jpg"
+  },
+  "preset-sasageyo": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/b46496-Mu86MENd5wNB.png",
+    "from": "AniList: Erwin Smith",
+    "file": "assets/sound-art/f22e33f9ba.jpg"
+  },
+  "preset-super-saiyan": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+    "from": "AniList: Gokuu Son",
+    "file": "assets/sound-art/a74bc9f52f.jpg"
+  },
+  "preset-anime-wow": {
+    "none": true
+  },
+  "preset-anime-squeak": {
+    "none": true
+  },
+  "preset-rickroll": {
+    "keep": true
+  },
+  "preset-gigachad": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/20/The_Gigachad.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Chad (slang)",
+    "file": "assets/sound-art/2328661a9b.jpg"
+  },
+  "preset-mario-theme": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Super Mario Bros.",
+    "file": "assets/sound-art/43630bb684.jpg"
+  },
+  "preset-megalovania": {
+    "file": "assets/sound-art/undertale.svg",
+    "from": "Simple Icons: Undertale"
+  },
+  "preset-tetris-theme": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/500px-Tetris_logo_2019.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Tetris",
+    "file": "assets/sound-art/3dd095e3bb.jpg"
+  },
+  "preset-girl-uwu": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Stylized_uwu_emoticon.svg/500px-Stylized_uwu_emoticon.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Uwu",
+    "file": "assets/sound-art/2ff6b33537.jpg"
+  },
+  "preset-fahhhhhhhhhhhhhh": {
+    "none": true
+  },
+  "preset-aayein": {
+    "none": true
+  },
+  "preset-paisa": {
+    "none": true
+  },
+  "preset-gunda": {
+    "none": true
+  },
+  "preset-maro-mujhe": {
+    "none": true
+  },
+  "preset-modi-wah": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Narendra_Modi_Portrait_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Narendra Modi",
+    "file": "assets/sound-art/4b71a4df0c.jpg"
+  },
+  "preset-baap-re": {
+    "none": true
+  },
+  "preset-baburao": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Still-phir-hera-phir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Phir Hera Pheri",
+    "file": "assets/sound-art/0e1a473331.jpg"
+  },
+  "preset-gian-aap": {
+    "none": true
+  },
+  "preset-shakal-gian": {
+    "none": true
+  },
+  "preset-kbc-suspense": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Indian_actor_Amitabh_Bachchan.jpg/500px-Indian_actor_Amitabh_Bachchan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Amitabh Bachchan",
+    "file": "assets/sound-art/d262b4e99c.jpg"
+  },
+  "preset-sochna-bhau": {
+    "none": true
+  },
+  "preset-computer-virus": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Example_of_a_technical_support_scam_popup.png/500px-Example_of_a_technical_support_scam_popup.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Technical support scam",
+    "file": "assets/sound-art/2f46dd6cd8.jpg"
+  },
+  "preset-angry-scammer": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Example_of_a_technical_support_scam_popup.png/500px-Example_of_a_technical_support_scam_popup.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Technical support scam",
+    "file": "assets/sound-art/2f46dd6cd8.jpg"
+  },
+  "preset-proud-army": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Indian_Army_Circular_Insignia.svg/500px-Indian_Army_Circular_Insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Indian Army",
+    "file": "assets/sound-art/78abf56ea9.jpg"
+  },
+  "preset-chalti-cocaine": {
+    "none": true
+  },
+  "preset-alakh-motivation": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Physics_wallah_logo.svg/500px-Physics_wallah_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Physics Wallah",
+    "file": "assets/sound-art/a7567f696a.jpg"
+  },
+  "preset-guy-laugh": {
+    "none": true
+  },
+  "preset-indian-sorry": {
+    "none": true
+  },
+  "preset-out-of-reach": {
+    "none": true
+  },
+  "preset-sad-flute": {
+    "keep": true
+  },
+  "preset-nature-cricket": {
+    "keep": true
+  },
+  "preset-nature-wolf": {
+    "keep": true
+  },
+  "preset-nature-rain": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hard_rain_on_a_roof.jpg/500px-Hard_rain_on_a_roof.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Rain",
+    "file": "assets/sound-art/ac3e869b1b.jpg"
+  },
+  "preset-nature-wind": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Cherry_tree_moving_in_the_wind_1.gif/500px-Cherry_tree_moving_in_the_wind_1.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Wind",
+    "file": "assets/sound-art/8f6c11ee87.jpg"
+  },
+  "preset-nature-rooster": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/500px-Male_and_female_chicken_sitting_together.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Chicken",
+    "file": "assets/sound-art/37846e048a.jpg"
+  },
+  "preset-comedy-trombone": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Yamaha_Tenor_trombone_YSL-891Z_%28re-crop%29.jpg/500px-Yamaha_Tenor_trombone_YSL-891Z_%28re-crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Trombone",
+    "file": "assets/sound-art/d77c63592c.jpg"
+  },
+  "preset-comedy-whistle": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Pea_Whistle.jpg/500px-Pea_Whistle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Whistle",
+    "file": "assets/sound-art/d86ad3a277.jpg"
+  },
+  "preset-comedy-boowomp": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/SpongeBob_character.svg/330px-SpongeBob_character.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: SpongeBob SquarePants (character)",
+    "file": "assets/sound-art/95b060cca7.jpg"
+  },
+  "preset-comedy-laugh": {
+    "none": true
+  },
+  "preset-comedy-drumroll": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Caisse_claire.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Snare drum",
+    "file": "assets/sound-art/2e0cf826a6.jpg"
+  },
+  "preset-game-mariojump": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Mario",
+    "file": "assets/sound-art/7fb8674e3f.jpg"
+  },
+  "preset-game-minecraftoof": {
+    "keep": true
+  },
+  "preset-game-mgsalert": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Metal Gear Solid (video game)",
+    "file": "assets/sound-art/f62857b0b0.jpg"
+  },
+  "preset-game-gtashit": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Grand Theft Auto: San Andreas",
+    "file": "assets/sound-art/002e92d484.jpg"
+  },
+  "preset-game-pacman": {
+    "keep": true
+  },
+  "preset-horror-creepylaugh": {
+    "none": true
+  },
+  "preset-horror-evillaugh": {
+    "none": true
+  },
+  "preset-horror-fnaf": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Five_Nights_at_Freddy%27s.svg/500px-Five_Nights_at_Freddy%27s.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Five Nights at Freddy's",
+    "file": "assets/sound-art/a6e6c1f09f.jpg"
+  },
+  "preset-horror-screamer": {
+    "none": true
+  },
+  "preset-horror-jumpscare": {
+    "none": true
+  },
+  "preset-horror-toccata": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ringk_Copy_-_First_Page_Fragment.jpg/500px-Ringk_Copy_-_First_Page_Fragment.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Toccata and Fugue in D minor, BWV 565",
+    "file": "assets/sound-art/4177c32964.jpg"
+  },
+  "preset-horror-heartbeat": {
+    "none": true
+  },
+  "aurora-heyy-daddy": {
+    "none": true
+  },
+  "aurora-girl-uwu": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Stylized_uwu_emoticon.svg/500px-Stylized_uwu_emoticon.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Uwu",
+    "file": "assets/sound-art/2ff6b33537.jpg"
+  },
+  "aurora-uwu-discord": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "aurora-discord-ping": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "aurora-discord-join": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "aurora-discord-leave": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "aurora-discord-call": {
+    "file": "assets/sound-art/discord.svg",
+    "from": "Simple Icons: Discord"
+  },
+  "aurora-discord-cat-scream": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/500px-Siam_lilacpoint.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Cat",
+    "file": "assets/sound-art/278c1b35b6.jpg"
+  },
+  "aurora-vine-boom": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Vine_wordmark.svg/500px-Vine_wordmark.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Vine (service)",
+    "file": "assets/sound-art/3f003d5197.jpg"
+  },
+  "aurora-bruh": {
+    "none": true
+  },
+  "aurora-emotional-damage": {
+    "none": true
+  },
+  "aurora-fbi-open-up": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/New_seal_of_the_Federal_Bureau_of_Investigation.svg/500px-New_seal_of_the_Federal_Bureau_of_Investigation.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Federal Bureau of Investigation",
+    "file": "assets/sound-art/7bb13dbd1b.jpg"
+  },
+  "aurora-airhorn": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Supertanker_Steam_whistle%2C_Merseyside_Maritime_Museum.jpg/500px-Supertanker_Steam_whistle%2C_Merseyside_Maritime_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Air horn",
+    "file": "assets/sound-art/80edd0167b.jpg"
+  },
+  "aurora-sad-violin": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Violin_VL100.png/500px-Violin_VL100.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Violin",
+    "file": "assets/sound-art/10e6720cd3.jpg"
+  },
+  "aurora-anime-wow": {
+    "none": true
+  },
+  "aurora-rizz": {
+    "none": true
+  },
+  "aurora-among-us": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "from": "Wikipedia: Among Us",
+    "file": "assets/sound-art/5e1baec9f5.jpg"
+  },
+  "aurora-taco-bell": {
+    "file": "assets/sound-art/tacobell.svg",
+    "from": "Simple Icons: Taco Bell"
+  },
+  "aurora-windows-xp": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/64/Windows_XP_Luna.png/500px-Windows_XP_Luna.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "from": "Wikipedia: Windows XP",
+    "file": "assets/sound-art/36a1446a36.jpg"
+  },
+  "aurora-goku-drip": {
+    "url": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+    "from": "AniList: Gokuu Son",
+    "file": "assets/sound-art/a74bc9f52f.jpg"
+  },
+  "aurora-anime-ahh": {
+    "none": true
+  },
+  "aurora-fahhh": {
+    "none": true
+  },
+  "aurora-gopgopgop": {
+    "none": true
+  }
+}

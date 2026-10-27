@@ -64,7 +64,9 @@
       "beatrice_paraphernalia_old_tts/**/*",
       "beatrice_2.0.0-rc.2.vst3/**/*",
       "custom_models/**/*",
-      "fonts/**/*"
+      "fonts/**/*",
+      "assets/sounds/**/*",
+      "assets/sound-art/**/*"
     ],
     "extraResources": [
       {

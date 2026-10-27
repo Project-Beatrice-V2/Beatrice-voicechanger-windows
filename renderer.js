@@ -182,8 +182,6 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facepalm.svg',
-    invertImage: true,
     url: 'https://www.myinstants.com/media/sounds/bruh.mp3',
     author: 'Meme Central',
     license: 'CC-BY-SA'
@@ -194,8 +192,6 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facepalm.svg',
-    invertImage: true,
     url: 'https://www.myinstants.com/media/sounds/emotional-damage-meme.mp3',
     author: 'Steven He',
     license: 'CC-BY-SA'
@@ -206,7 +202,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Windows_logo_-_2012.svg',
+    image: 'assets/sound-art/36a1446a36.jpg',
     url: 'https://www.myinstants.com/media/sounds/windows-xp-error.mp3',
     author: 'Microsoft',
     license: 'Copyright Microsoft'
@@ -217,7 +213,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Theft_Auto_logo_series.svg',
+    image: 'assets/sound-art/4e054e013a.jpg',
     url: 'https://www.myinstants.com/media/sounds/gta-v-wasted-death-sound.mp3',
     author: 'Rockstar Games',
     license: 'Copyright Rockstar'
@@ -228,8 +224,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Violin.svg',
-    invertImage: true,
+    image: 'assets/sound-art/10e6720cd3.jpg',
     url: 'https://www.myinstants.com/media/sounds/sad-violin.mp3',
     author: 'Spongememe',
     license: 'CC-BY-SA'
@@ -240,8 +235,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coffin.svg',
-    invertImage: true,
+    image: 'assets/sound-art/726e767807.jpg',
     url: 'https://www.myinstants.com/media/sounds/coffin-dance.mp3',
     author: 'Vicetone & Tony Igy',
     license: 'CC-BY-SA'
@@ -252,8 +246,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bell-solid.svg',
-    invertImage: true,
+    image: 'assets/sound-art/tacobell.svg',
     url: 'https://www.myinstants.com/media/sounds/taco-bell-bong.mp3',
     author: 'Taco Bell',
     license: 'Copyright Taco Bell'
@@ -264,8 +257,6 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facepalm.svg',
-    invertImage: true,
     url: 'https://www.myinstants.com/media/sounds/directed-by-robert-b-weide-theme-meme.mp3',
     author: 'Luciano Michelini',
     license: 'CC-BY-SA'
@@ -287,7 +278,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-call.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -298,7 +289,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-join.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -309,7 +300,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-leave.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -320,7 +311,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-mute.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -331,7 +322,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-unmute.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -342,7 +333,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-disconnect.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -353,7 +344,7 @@ const FAMOUS_PRESETS = [
     category: 'memes',
     emoji: '😂',
     color: '#ea580c',
-    image: 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png',
+    image: 'assets/sound-art/discord.svg',
     url: 'https://www.myinstants.com/media/sounds/discord-notification.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -366,7 +357,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Kenshiro',
+    image: 'assets/sound-art/67100a9e73.jpg',
     url: 'https://www.myinstants.com/media/sounds/omae-wa-mou-shindeiru.mp3',
     author: 'Fist of the North Star',
     license: 'Copyright Shonen'
@@ -377,7 +368,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'DIO JoJo',
+    image: 'assets/sound-art/bd1c3a0a2d.jpg',
     url: 'https://www.myinstants.com/media/sounds/hd-stardust-crusaders-za-warudo_1.mp3',
     author: 'Jojo\'s Bizarre Adventure',
     license: 'Copyright David Production'
@@ -388,7 +379,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Mayuri Shiina',
+    image: 'assets/sound-art/0aa656883e.jpg',
     url: 'https://www.myinstants.com/media/sounds/tuturu_1.mp3',
     author: 'Steins;Gate',
     license: 'Copyright White Fox'
@@ -399,7 +390,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    image: 'https://dragonball-api.com/characters/goku_normal.webp',
+    image: 'assets/sound-art/a74bc9f52f.jpg',
     url: 'https://www.myinstants.com/media/sounds/dbz-teleport.mp3',
     author: 'Toei Animation',
     license: 'Copyright Toei'
@@ -410,7 +401,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Naruto Uzumaki',
+    image: 'assets/sound-art/ac8ee6dd6d.jpg',
     url: 'https://www.myinstants.com/media/sounds/sad-naruto.mp3',
     author: 'Toshio Masuda',
     license: 'Copyright Studio Pierrot'
@@ -421,7 +412,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    image: 'https://dragonball-api.com/characters/goku_normal.webp',
+    image: 'assets/sound-art/a74bc9f52f.jpg',
     url: 'https://www.myinstants.com/media/sounds/ultra-instinct-theme-official-version.mp3',
     author: 'Dragon Ball Super',
     license: 'Copyright Toei'
@@ -432,7 +423,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Nico Yazawa',
+    image: 'assets/sound-art/89a60df707.jpg',
     url: 'https://www.myinstants.com/media/sounds/nico-nico-nii.mp3',
     author: 'Love Live!',
     license: 'Copyright Sunrise'
@@ -443,7 +434,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'DIO JoJo',
+    image: 'assets/sound-art/bd1c3a0a2d.jpg',
     url: 'https://www.myinstants.com/media/sounds/kono-dio-da99.mp3',
     author: 'JoJo\'s Bizarre Adventure',
     license: 'Copyright David Production'
@@ -454,7 +445,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    image: 'https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png',
+    image: 'assets/sound-art/3976c56783.jpg',
     url: 'https://www.myinstants.com/media/sounds/gomu-gomu-no.mp3',
     author: 'One Piece',
     license: 'Copyright Toei Animation'
@@ -465,7 +456,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    image: 'https://dragonball-api.com/characters/goku_normal.webp',
+    image: 'assets/sound-art/a74bc9f52f.jpg',
     url: 'https://www.myinstants.com/media/sounds/kamehameha.swf.mp3',
     author: 'Dragon Ball Z',
     license: 'Copyright Toei Animation'
@@ -476,7 +467,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Eren Yeager',
+    image: 'assets/sound-art/6115a6495a.jpg',
     url: 'https://www.myinstants.com/media/sounds/tatakae-eren.mp3',
     author: 'Attack on Titan',
     license: 'Copyright MAPPA'
@@ -487,7 +478,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Saitama',
+    image: 'assets/sound-art/dc5b8c843a.jpg',
     url: 'https://www.myinstants.com/media/sounds/one-punch-man_1.mp3',
     author: 'One Punch Man',
     license: 'Copyright Madhouse'
@@ -498,7 +489,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    malCharName: 'Erwin Smith',
+    image: 'assets/sound-art/f22e33f9ba.jpg',
     url: 'https://www.myinstants.com/media/sounds/erwin-smith-shinzou-wo-sasageyo_trim.mp3',
     author: 'Attack on Titan',
     license: 'Copyright Wit Studio'
@@ -509,7 +500,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
-    image: 'https://dragonball-api.com/characters/goku_normal.webp',
+    image: 'assets/sound-art/a74bc9f52f.jpg',
     url: 'https://www.myinstants.com/media/sounds/saiyan.mp3',
     author: 'Dragon Ball Z',
     license: 'Copyright Toei Animation'
@@ -553,8 +544,7 @@ const FAMOUS_PRESETS = [
     category: 'music',
     emoji: '🎵',
     color: '#7c3aed',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Font_Awesome_5_solid_dumbbell.svg',
-    invertImage: true,
+    image: 'assets/sound-art/2328661a9b.jpg',
     url: 'https://www.myinstants.com/media/sounds/gigachad-theme.mp3',
     author: 'SXVXVG',
     license: 'CC-BY-SA'
@@ -565,7 +555,7 @@ const FAMOUS_PRESETS = [
     category: 'music',
     emoji: '🎵',
     color: '#7c3aed',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Bros._logo.svg',
+    image: 'assets/sound-art/43630bb684.jpg',
     url: 'https://www.myinstants.com/media/sounds/super-mario-bros-theme.mp3',
     author: 'Koji Kondo',
     license: 'Copyright Nintendo'
@@ -576,7 +566,7 @@ const FAMOUS_PRESETS = [
     category: 'music',
     emoji: '🎵',
     color: '#7c3aed',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Undertale_logo.png',
+    image: 'assets/sound-art/undertale.svg',
     url: 'https://www.myinstants.com/media/sounds/megalovania.mp3',
     author: 'Toby Fox',
     license: 'Copyright Toby Fox'
@@ -587,7 +577,7 @@ const FAMOUS_PRESETS = [
     category: 'music',
     emoji: '🎵',
     color: '#7c3aed',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tetris_logo_English.svg',
+    image: 'assets/sound-art/3dd095e3bb.jpg',
     url: 'https://www.myinstants.com/media/sounds/tetris-theme.mp3',
     author: 'Traditional',
     license: 'Public Domain'
@@ -598,6 +588,7 @@ const FAMOUS_PRESETS = [
     category: 'anime',
     emoji: '🌸',
     color: '#db2777',
+    image: 'assets/sound-art/2ff6b33537.jpg',
     url: 'https://www.myinstants.com/media/sounds/girl-uwu.mp3',
     author: 'Discord',
     license: 'Copyright Discord'
@@ -658,6 +649,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/4b71a4df0c.jpg',
     url: 'https://www.myinstants.com/media/sounds/modi-ji-wah.mp3',
     author: 'Narendra Modi',
     license: 'Copyright Narendra Modi'
@@ -678,6 +670,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/0e1a473331.jpg',
     url: 'https://www.myinstants.com/media/sounds/phirherapheri.mp3',
     author: 'Hera Pheri',
     license: 'Copyright Hera Pheri'
@@ -708,6 +701,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/d262b4e99c.jpg',
     url: 'https://www.myinstants.com/media/sounds/kbc-question.mp3',
     author: 'KBC',
     license: 'Copyright KBC'
@@ -728,6 +722,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/2f46dd6cd8.jpg',
     url: 'https://www.myinstants.com/media/sounds/hello-your-computer-has-virus-sound-effect.mp3',
     author: 'Tech Support Scammer',
     license: 'CC-BY-SA'
@@ -738,6 +733,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/2f46dd6cd8.jpg',
     url: 'https://www.myinstants.com/media/sounds/getfromytcom-the-angriest-scamme-1.mp3',
     author: 'Tech Support Scammer',
     license: 'CC-BY-SA'
@@ -748,6 +744,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/78abf56ea9.jpg',
     url: 'https://www.myinstants.com/media/sounds/feeling-proud-indian-army.mp3',
     author: 'Indian Army Phonk',
     license: 'CC-BY-SA'
@@ -768,6 +765,7 @@ const FAMOUS_PRESETS = [
     category: 'indian',
     emoji: '🪘',
     color: '#047857',
+    image: 'assets/sound-art/a7567f696a.jpg',
     url: 'https://www.myinstants.com/media/sounds/alakh-sir-motivation.mp3',
     author: 'Physics Wallah',
     license: 'Copyright Physics Wallah'
@@ -842,8 +840,7 @@ const FAMOUS_PRESETS = [
     category: 'nature',
     emoji: '🌿',
     color: '#16a34a',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Heavy_rain.svg',
-    invertImage: true,
+    image: 'assets/sound-art/ac3e869b1b.jpg',
     url: 'https://www.myinstants.com/media/sounds/rain.mp3',
     author: 'Nature Sound',
     license: 'CC-BY-SA'
@@ -854,8 +851,7 @@ const FAMOUS_PRESETS = [
     category: 'nature',
     emoji: '🌿',
     color: '#16a34a',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Font_Awesome_5_solid_wind.svg',
-    invertImage: true,
+    image: 'assets/sound-art/8f6c11ee87.jpg',
     url: 'https://www.myinstants.com/media/sounds/wind-howling.mp3',
     author: 'Nature Sound',
     license: 'CC-BY-SA'
@@ -866,8 +862,7 @@ const FAMOUS_PRESETS = [
     category: 'nature',
     emoji: '🌿',
     color: '#16a34a',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rooster.svg',
-    invertImage: true,
+    image: 'assets/sound-art/37846e048a.jpg',
     url: 'https://www.myinstants.com/media/sounds/rooster.mp3',
     author: 'Nature Sound',
     license: 'CC-BY-SA'
@@ -878,8 +873,7 @@ const FAMOUS_PRESETS = [
     category: 'comedy',
     emoji: '🎭',
     color: '#d97706',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trombone.svg',
-    invertImage: true,
+    image: 'assets/sound-art/d77c63592c.jpg',
     url: 'https://www.myinstants.com/media/sounds/sad-trombone.mp3',
     author: 'Comedy Sound',
     license: 'CC-BY-SA'
@@ -890,6 +884,7 @@ const FAMOUS_PRESETS = [
     category: 'comedy',
     emoji: '🎭',
     color: '#d97706',
+    image: 'assets/sound-art/d86ad3a277.jpg',
     url: 'https://www.myinstants.com/media/sounds/slide-whistle.mp3',
     author: 'Comedy Sound',
     license: 'CC-BY-SA'
@@ -900,8 +895,7 @@ const FAMOUS_PRESETS = [
     category: 'comedy',
     emoji: '🎭',
     color: '#d97706',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Unicode_1F622.svg',
-    invertImage: true,
+    image: 'assets/sound-art/95b060cca7.jpg',
     url: 'https://www.myinstants.com/media/sounds/boowomp.mp3',
     author: 'Comedy Sound',
     license: 'CC-BY-SA'
@@ -922,6 +916,7 @@ const FAMOUS_PRESETS = [
     category: 'comedy',
     emoji: '🎭',
     color: '#d97706',
+    image: 'assets/sound-art/2e0cf826a6.jpg',
     url: 'https://www.myinstants.com/media/sounds/drumroll.mp3',
     author: 'Comedy Sound',
     license: 'CC-BY-SA'
@@ -932,7 +927,7 @@ const FAMOUS_PRESETS = [
     category: 'games',
     emoji: '🎮',
     color: '#0891b2',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Bros._logo.svg',
+    image: 'assets/sound-art/7fb8674e3f.jpg',
     url: 'https://www.myinstants.com/media/sounds/mario-jump.mp3',
     author: 'Nintendo',
     license: 'Copyright Nintendo'
@@ -955,7 +950,7 @@ const FAMOUS_PRESETS = [
     category: 'games',
     emoji: '🎮',
     color: '#0891b2',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Warning.svg',
+    image: 'assets/sound-art/f62857b0b0.jpg',
     url: 'https://www.myinstants.com/media/sounds/metal-gear-solid-alert.mp3',
     author: 'Konami',
     license: 'Copyright Konami'
@@ -966,7 +961,7 @@ const FAMOUS_PRESETS = [
     category: 'games',
     emoji: '🎮',
     color: '#0891b2',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Theft_Auto_logo_series.svg',
+    image: 'assets/sound-art/002e92d484.jpg',
     url: 'https://www.myinstants.com/media/sounds/gta-san-andreas-ah-shit-here-we-go-again.mp3',
     author: 'Rockstar Games',
     license: 'Copyright Rockstar'
@@ -1008,6 +1003,7 @@ const FAMOUS_PRESETS = [
     category: 'horror',
     emoji: '👻',
     color: '#7f1d1d',
+    image: 'assets/sound-art/a6e6c1f09f.jpg',
     url: 'https://www.myinstants.com/media/sounds/fnaf-jumpscare.mp3',
     author: 'Scott Cawthon',
     license: 'Copyright Scott Cawthon'
@@ -1018,8 +1014,6 @@ const FAMOUS_PRESETS = [
     category: 'horror',
     emoji: '👻',
     color: '#7f1d1d',
-    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skull-Icon.svg',
-    invertImage: true,
     url: 'https://www.myinstants.com/media/sounds/screamer.mp3',
     author: 'Horror Sound',
     license: 'CC-BY-SA'
@@ -1040,6 +1034,7 @@ const FAMOUS_PRESETS = [
     category: 'horror',
     emoji: '👻',
     color: '#7f1d1d',
+    image: 'assets/sound-art/4177c32964.jpg',
     url: 'https://www.myinstants.com/media/sounds/toccata-and-fugue.mp3',
     author: 'J.S. Bach',
     license: 'Public Domain'
@@ -1055,6 +1050,48 @@ const FAMOUS_PRESETS = [
     license: 'CC-BY-SA'
   }
 ];
+
+
+// ── Aurora sound pack ─────────────────────────────────────
+// The built-in soundboard of Aurora Voice Changer, shipped as local files in
+// assets/sounds so these play offline. Sounds the library already lists by
+// another name play the Aurora file instead of the online copy.
+const BUNDLED_SOUNDS_DIR = path.join(__dirname, 'assets', 'sounds');
+const AURORA_PACK = [
+  { file: 'heyy-daddy', id: 'aurora-heyy-daddy', name: 'Heyy Daddy', category: 'memes', color: '#ff6fb5' },
+  { file: 'girl-uwu', replaces: 'preset-girl-uwu' },
+  { file: 'uwu-discord', id: 'aurora-uwu-discord', name: 'UwU Discord Girl', category: 'memes', color: '#dd55e7', image: 'assets/sound-art/discord.svg' },
+  { file: 'discord-ping', replaces: 'preset-discord-ping' },
+  { file: 'discord-join', replaces: 'preset-discord-join' },
+  { file: 'discord-leave', replaces: 'preset-discord-leave' },
+  { file: 'discord-call', replaces: 'preset-discord-call' },
+  { file: 'discord-cat-scream', id: 'aurora-discord-cat-scream', name: 'Cat Scream', category: 'memes', color: '#e6714f', image: 'assets/sound-art/278c1b35b6.jpg' },
+  { file: 'vine-boom', id: 'aurora-vine-boom', name: 'Vine Boom', category: 'memes', color: '#ffb764', image: 'assets/sound-art/3f003d5197.jpg' },
+  { file: 'bruh', replaces: 'preset-bruh' },
+  { file: 'emotional-damage', replaces: 'preset-emotional-damage' },
+  { file: 'fbi-open-up', replaces: 'preset-fbi-open-up' },
+  { file: 'airhorn', id: 'aurora-airhorn', name: 'MLG Air Horn', category: 'memes', color: '#ffdd00', image: 'assets/sound-art/80edd0167b.jpg' },
+  { file: 'sad-violin', replaces: 'preset-sad-violin' },
+  { file: 'anime-wow', replaces: 'preset-anime-wow' },
+  { file: 'rizz', id: 'aurora-rizz', name: 'Rizz', category: 'memes', color: '#16c253' },
+  { file: 'among-us', id: 'aurora-among-us', name: 'Among Us', category: 'games', color: '#e6714f', image: 'assets/sound-art/5e1baec9f5.jpg' },
+  { file: 'taco-bell', replaces: 'preset-taco-bell' },
+  { file: 'windows-xp', id: 'aurora-windows-xp', name: 'Windows XP Off', category: 'memes', color: '#60a5fa', image: 'assets/sound-art/36a1446a36.jpg' },
+  { file: 'goku-drip', id: 'aurora-goku-drip', name: 'Goku Drip', category: 'anime', color: '#ffb764', image: 'assets/sound-art/a74bc9f52f.jpg' },
+  { file: 'anime-ahh', id: 'aurora-anime-ahh', name: 'Anime Ahh', category: 'anime', color: '#ff6fb5' },
+  { file: 'fahhh', replaces: 'preset-fahhhhhhhhhhhhhh' },
+  { file: 'gopgopgop', id: 'aurora-gopgopgop', name: 'Gop Gop Gop', category: 'memes', color: '#16c253' },
+];
+for (const entry of AURORA_PACK) {
+  const url = require('url').pathToFileURL(path.join(BUNDLED_SOUNDS_DIR, entry.file + '.mp3')).href;
+  const existing = entry.replaces && FAMOUS_PRESETS.find(p => p.id === entry.replaces);
+  if (existing) {
+    Object.assign(existing, { url, pack: 'aurora' });
+  } else {
+    FAMOUS_PRESETS.push({ id: entry.id, name: entry.name, category: entry.category, color: entry.color,
+      image: entry.image, url, pack: 'aurora', author: 'Aurora Voice Changer', license: 'Bundled' });
+  }
+}
 
 const LIB_CATEGORIES = [
   { id: 'all',    label: 'All',    emoji: '🌐', color: '#4b5563',
@@ -1426,31 +1463,38 @@ function loadSoundboard() {
   }
   // Remove any entries with missing audio files
   soundboardSounds = soundboardSounds.filter(s => s && s.audioPath && fs.existsSync(s.audioPath));
+  // Sounds added from the library follow the library's current artwork, so
+  // boards saved before the art refresh lose their old stock images.
+  for (const s of soundboardSounds) {
+    const preset = s.libId && FAMOUS_PRESETS.find(p => p.id === s.libId);
+    if (preset && !s.imagePath) s.image = preset.image || undefined;
+  }
   updateRegisteredKeybinds();
+}
+
+// First run: start the soundboard with the Aurora pack instead of empty.
+// Runs once, and never touches a soundboard the user has already filled.
+function seedAuroraSoundboard() {
+  const SEEDED_KEY = 'beatrice_aurora_seeded';
+  if (localStorage.getItem(SEEDED_KEY)) return;
+  localStorage.setItem(SEEDED_KEY, '1');
+  if (soundboardSounds.length > 0) return;
+  for (const sound of FAMOUS_PRESETS.filter(p => p.pack === 'aurora')) {
+    try {
+      const src = require('url').fileURLToPath(sound.url);
+      const dest = path.join(SOUNDBOARD_DIR, `lib_aurora_${path.basename(src)}`);
+      fs.copyFileSync(src, dest);
+      soundboardSounds.push({ name: sound.name, audioPath: dest, libId: sound.id, category: sound.category, image: sound.image || undefined });
+    } catch (err) {
+      console.warn('[Aurora pack] Could not add', sound.name, err);
+    }
+  }
+  saveSoundboard();
 }
 
 function saveSoundboard() {
   localStorage.setItem(STORAGE_KEY_SB, JSON.stringify(soundboardSounds));
   updateRegisteredKeybinds();
-}
-
-// ── Jikan API: anime character images with localStorage cache ────────────
-const _jikanImgCache = {};
-async function fetchJikanCharImage(charName) {
-  if (Object.prototype.hasOwnProperty.call(_jikanImgCache, charName)) return _jikanImgCache[charName];
-  const lsKey = 'beatrice_jikan_' + charName.replace(/\W+/g, '_');
-  const stored = localStorage.getItem(lsKey);
-  if (stored !== null) { _jikanImgCache[charName] = stored || null; return _jikanImgCache[charName]; }
-  await new Promise(r => setTimeout(r, Math.random() * 600 + 100)); // stagger to avoid rate-limit
-  try {
-    const resp = await fetch(`https://api.jikan.moe/v4/characters?q=${encodeURIComponent(charName)}&limit=1&order_by=favorites&sort=desc`);
-    if (!resp.ok) { _jikanImgCache[charName] = null; localStorage.setItem(lsKey, ''); return null; }
-    const data = await resp.json();
-    const url  = data?.data?.[0]?.images?.jpg?.image_url || null;
-    _jikanImgCache[charName] = url;
-    localStorage.setItem(lsKey, url || '');
-    return url;
-  } catch { _jikanImgCache[charName] = null; return null; }
 }
 
 function lightenHex(hex, amount = 55) {
@@ -1459,6 +1503,10 @@ function lightenHex(hex, amount = 55) {
   const g = Math.min(255, ((n >> 8) & 0xff) + amount);
   const b = Math.min(255, (n & 0xff) + amount);
   return '#' + [r, g, b].map(v => v.toString(16).padStart(2, '0')).join('');
+}
+
+function escapeAttr(text) {
+  return String(text).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
 function getImageUrlForSound(sound) {
@@ -1471,30 +1519,36 @@ function getImageUrlForSound(sound) {
   }
   if (sound.image) return sound.image;
 
-  // Professional gradient card — each sound gets a unique background color based on name/ID
-  const emoji = sound.emoji || '🔊';
-  const str = sound.name || sound.id || '';
+  // No picture of the subject: a plain name tile in the app's own style,
+  // rather than stock clip-art. A faint hue keyed to the name keeps tiles apart.
+  const name = String(sound.name || 'Sound');
   let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-  }
+  for (let i = 0; i < name.length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash);
   const hue = Math.abs(hash % 360);
-  const sat = 70; // Vibrant saturation
-  const base = `hsl(${hue}, ${sat}%, 25%)`;
-  const lite = `hsl(${hue}, ${sat}%, 55%)`;
-
+  const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const lines = [];
+  for (const word of name.split(/\s+/)) {
+    const last = lines[lines.length - 1];
+    if (last && (last + ' ' + word).length <= 11) lines[lines.length - 1] = last + ' ' + word;
+    else lines.push(word.length > 12 ? word.slice(0, 11) + '…' : word);
+  }
+  if (lines.length > 3) { lines.length = 3; lines[2] = lines[2].slice(0, 10) + '…'; }
+  // Shrink long words so they fit the 150px tile (Geist bold is ~0.6em wide).
+  const longest = Math.max(...lines.map(l => l.length));
+  const size = Math.min(lines.length === 1 ? 24 : 20, Math.floor(128 / (longest * 0.6)));
+  const top = 78 - ((lines.length - 1) * size * 1.1) / 2;
+  const text = lines.map((l, i) => `<tspan x="75" y="${(top + i * size * 1.1).toFixed(1)}">${esc(l)}</tspan>`).join('');
+  const bars = [10, 18, 28, 16, 24, 12, 20].map((h, i) =>
+    `<rect x="${54 + i * 6}" y="${128 - h / 2}" width="3" height="${h / 2}" rx="1.5" fill="hsl(${hue},90%,75%)" opacity="0.55"/>`).join('');
   const svgStr = [
-    `<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150">`,
-    `<defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">`,
-    `<stop offset="0%" stop-color="${lite}"/>`,
-    `<stop offset="100%" stop-color="${base}"/>`,
-    `</linearGradient></defs>`,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">`,
+    `<defs><radialGradient id="g" cx="50%" cy="35%" r="75%">`,
+    `<stop offset="0%" stop-color="hsl(${hue},70%,32%)"/><stop offset="100%" stop-color="#08080c"/>`,
+    `</radialGradient></defs>`,
     `<rect width="150" height="150" fill="url(#g)"/>`,
-    `<circle cx="130" cy="20"  r="60" fill="rgba(255,255,255,0.08)"/>`,
-    `<circle cx="15"  cy="138" r="48" fill="rgba(0,0,0,0.12)"/>`,
-    `<text x="75" y="78" font-size="58" text-anchor="middle" dominant-baseline="middle" `,
-    `font-family="system-ui,Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif">`,
-    emoji, `</text></svg>`
+    `<text font-family="Geist,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-weight="650" font-size="${size}" `,
+    `letter-spacing="-0.5" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">${text}</text>`,
+    bars, `</svg>`
   ].join('');
   try { return 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgStr))); }
   catch (e) { return 'data:image/svg+xml;base64,' + btoa(svgStr); }
@@ -1507,8 +1561,8 @@ function renderSoundboardMain() {
 
   // Sort soundboard sounds: first show image with sound, then emoji with sound
   soundboardSounds.sort((a, b) => {
-    const hasA = !!(a.image || a.imagePath || a.malCharName);
-    const hasB = !!(b.image || b.imagePath || b.malCharName);
+    const hasA = !!(a.image || a.imagePath);
+    const hasB = !!(b.image || b.imagePath);
     if (hasA && !hasB) return -1;
     if (!hasA && hasB) return 1;
     return 0;
@@ -1523,7 +1577,7 @@ function renderSoundboardMain() {
     const isCustomImage = !!(sound.image || sound.imagePath);
     const imageStyle = isCustomImage ? 'style="object-fit: contain;"' : '';
     const imgClass = sound.invertImage ? ' class="invert-img"' : '';
-    const imageHtml = `<img src="${imageUrl}" alt=""${imgClass} ${imageStyle} data-emoji="${sound.emoji || '🔊'}" data-color="${sound.color || '#1a1a2e'}" onerror="this.onerror=null;this.src=getImageUrlForSound({emoji:this.dataset.emoji,color:this.dataset.color});this.style.objectFit='cover';this.style.background='transparent';">`;
+    const imageHtml = `<img src="${imageUrl}" alt=""${imgClass} ${imageStyle} data-name="${escapeAttr(sound.name || '')}" onerror="this.onerror=null;this.src=getImageUrlForSound({name:this.dataset.name});this.style.objectFit='cover';this.style.background='transparent';">`;
 
     const isListening = isRecordingKeybindForSlot === i;
     const keybindText = isListening ? 'Press keys...' : (sound.keybind || 'Add keybind');
@@ -1750,10 +1804,12 @@ settingsResetBtn.addEventListener('click', () => {
   localStorage.removeItem(STORAGE_KEY_MODE);
   localStorage.removeItem(STORAGE_KEY_SB);
   localStorage.removeItem(STORAGE_KEY_LANG);
+  localStorage.removeItem('beatrice_aurora_seeded');
   applyTheme('obsidian');
   applyColorMode('dark');
   applyLanguage('en');
   loadSoundboard();
+  seedAuroraSoundboard();
   renderSoundboardMain();
 });
 
@@ -2635,6 +2691,7 @@ async function pollBackendStatus() {
 loadSavedTheme();
 loadSavedLanguage();
 loadSoundboard();
+seedAuroraSoundboard();
 renderSoundboardMain();
 
 // Initialize model selection UI and bindings (Custom Dropdown)
@@ -3137,9 +3194,13 @@ async function searchFreesound(query, cat, page) {
 }
 
 // ── Core library loader ───────────────────────────────────
+// Each load gets a number; a slow online search that finishes after the user
+// picked another category must not overwrite the newer results.
+let libLoadSeq = 0;
 async function loadLibrary(resetPage = true) {
   const grid = document.getElementById('lib-grid');
   if (!grid) return;
+  const seq = ++libLoadSeq;
   if (resetPage) { libFsPage = 1; libSounds = []; }
 
   grid.innerHTML = `<div class="lib-loading"><div class="spinner"></div><p>Loading sounds…</p></div>`;
@@ -3148,26 +3209,30 @@ async function loadLibrary(resetPage = true) {
   // Filter our famous local presets
   const query = libSearch.toLowerCase().trim();
   const matchedPresets = FAMOUS_PRESETS.filter(p => {
-    const catMatch = libCat === 'all' || p.category === libCat;
+    const catMatch = libCat === 'all' || p.category === libCat || p.pack === libCat;
     const searchMatch = !query || p.name.toLowerCase().includes(query);
     return catMatch && searchMatch;
   });
 
   try {
     let onlineSounds = [];
-    if (libCat !== 'indian') {
+    if (libCat !== 'indian' && libCat !== 'aurora') {
       onlineSounds = await searchWikimedia(libSearch, libCat);
     }
+    if (seq !== libLoadSeq) return;
     libSounds = [...matchedPresets, ...onlineSounds];
     renderLibGrid(libSounds);
     const statsEl = document.getElementById('lib-stats');
     if (statsEl) {
       statsEl.textContent = libCat === 'indian'
         ? `Featured Indian presets · ${libSounds.length} sounds`
+        : libCat === 'aurora'
+        ? `Aurora sound pack · ${libSounds.length} sounds, works offline`
         : `Featured presets & Wikimedia Commons · ${libSounds.length} sounds`;
     }
     document.getElementById('lib-pagination').style.display = 'none';
   } catch (err) {
+    if (seq !== libLoadSeq) return;
     console.error('[Library]', err);
     // If online search fails, still show the matching presets!
     if (matchedPresets.length > 0) {
@@ -3191,8 +3256,8 @@ function renderLibGrid(sounds) {
 
   // Sort available sounds: first show image with sound, then emoji with sound
   availableSounds.sort((a, b) => {
-    const hasA = !!(a.image || a.imagePath || a.malCharName);
-    const hasB = !!(b.image || b.imagePath || b.malCharName);
+    const hasA = !!(a.image || a.imagePath);
+    const hasB = !!(b.image || b.imagePath);
     if (hasA && !hasB) return -1;
     if (!hasA && hasB) return 1;
     return 0;
@@ -3223,7 +3288,7 @@ function makeLibCard(sound, isAdded) {
   const isCustomImage = !!(sound.image || sound.imagePath);
   const imageStyle = isCustomImage ? 'style="object-fit: contain;"' : '';
   const imgClass = 'lib-card-img' + (sound.invertImage ? ' invert-img' : '');
-  const thumbInner = `<img src="${imageUrl}" alt="" class="${imgClass}" ${imageStyle} loading="lazy" data-emoji="${sound.emoji || '🔊'}" data-color="${sound.color || '#1a1a2e'}" onerror="this.onerror=null;this.src=getImageUrlForSound({emoji:this.dataset.emoji,color:this.dataset.color});this.style.objectFit='cover';this.style.background='transparent';">`;
+  const thumbInner = `<img src="${imageUrl}" alt="" class="${imgClass}" ${imageStyle} loading="lazy" data-name="${escapeAttr(sound.name || '')}" onerror="this.onerror=null;this.src=getImageUrlForSound({name:this.dataset.name});this.style.objectFit='cover';this.style.background='transparent';">`;
 
   card.innerHTML = `
     <div class="lib-card-thumb">
@@ -3251,20 +3316,6 @@ function makeLibCard(sound, isAdded) {
     if (btn.classList.contains('loading')) return;
     await downloadToSoundboard(sound, btn);
   });
-
-  // Lazy-load anime character image from Jikan API if malCharName is set
-  if (sound.malCharName && !sound.image) {
-    const libImg = card.querySelector('.lib-card-img');
-    if (libImg) {
-      fetchJikanCharImage(sound.malCharName).then(url => {
-        if (url && libImg.isConnected) {
-          libImg.src = url;
-          libImg.style.objectFit = 'contain';
-          libImg.style.background = '#0b0b14';
-        }
-      });
-    }
-  }
 
   return card;
 }
@@ -3360,7 +3411,8 @@ async function downloadToSoundboard(sound, btn) {
     const safe = sound.name.replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 60);
     const dest = path.join(SOUNDBOARD_DIR, `lib_${Date.now()}_${safe}${ext}`);
     
-    await downloadUrlToLocalFile(sound.url, dest);
+    if (sound.url.startsWith('file:')) fs.copyFileSync(require('url').fileURLToPath(sound.url), dest);
+    else await downloadUrlToLocalFile(sound.url, dest);
 
     soundboardSounds.push({ name: sound.name, audioPath: dest, libId: sound.id, category: sound.category, image: sound.image || undefined });
     saveSoundboard();
