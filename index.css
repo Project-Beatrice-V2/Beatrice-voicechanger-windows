@@ -3221,7 +3221,10 @@ html[data-color-mode="light"] .main-content::before { opacity: 0.35; }
   transition: border-color 0.15s ease;
 }
 .theme-card:hover { border-color: var(--border-hover); }
-.theme-card.active { border-color: var(--text-hi); box-shadow: none; }
+.theme-card.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim), 0 0 24px var(--accent-dim);
+}
 .theme-preview {
   height: 64px;
   display: flex;
@@ -3244,7 +3247,7 @@ html[data-color-mode="light"] .main-content::before { opacity: 0.35; }
 .theme-card-info { display: flex; flex-direction: column; gap: 1px; padding: 0 2px 2px; }
 .theme-card-name { font-size: 13.5px; font-weight: 600; letter-spacing: -0.015em; color: var(--text-hi); }
 .theme-card-desc { font-size: 11.5px; color: var(--text-lo); }
-.theme-check { position: absolute; top: 16px; right: 16px; color: #fff; opacity: 0; }
+.theme-check { position: absolute; top: 16px; right: 16px; color: var(--accent-text); box-shadow: none; opacity: 0; }
 .theme-card.active .theme-check { opacity: 1; }
 
 .settings-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
@@ -3403,3 +3406,16 @@ html[data-color-mode="light"] .switch-slider::before { background: #fff; box-sha
   .status-item { padding: 0 10px; }
   .content-header-row { align-items: flex-start; }
 }
+
+/* Accent previews follow the colour mode, so each card shows exactly what
+   picking it will look like. */
+html[data-color-mode="light"] .theme-preview { background: #f6f6f8; border-color: rgba(0, 0, 0, 0.08); }
+html[data-color-mode="light"] .tp-sidebar { background: #ffffff !important; border-right-color: rgba(0, 0, 0, 0.07); }
+html[data-color-mode="light"] .tp-main { background: #f6f6f8 !important; }
+html[data-color-mode="light"] .tp-bar { background: rgba(0, 0, 0, 0.12) !important; }
+html[data-color-mode="light"] .theme-card[data-theme="obsidian"] .tp-accent { background: #0a0a0c !important; box-shadow: none !important; }
+html[data-color-mode="light"] .theme-card[data-theme="midnight"] .tp-accent { background: #4a5be0 !important; box-shadow: none !important; }
+html[data-color-mode="light"] .theme-card[data-theme="teal"] .tp-accent { background: #0b8f7d !important; box-shadow: none !important; }
+html[data-color-mode="light"] .theme-card[data-theme="amber"] .tp-accent { background: #c25a12 !important; box-shadow: none !important; }
+html[data-color-mode="light"] .theme-card[data-theme="rose"] .tp-accent { background: #c92d68 !important; box-shadow: none !important; }
+html[data-color-mode="light"] .theme-card[data-theme="cyberpunk"] .tp-accent { background: #0a9f62 !important; box-shadow: none !important; }
