@@ -63,7 +63,8 @@
       "beatrice_paraphernalia_official_1/**/*",
       "beatrice_paraphernalia_old_tts/**/*",
       "beatrice_2.0.0-rc.2.vst3/**/*",
-      "custom_models/**/*"
+      "custom_models/**/*",
+      "fonts/**/*"
     ],
     "extraResources": [
       {
