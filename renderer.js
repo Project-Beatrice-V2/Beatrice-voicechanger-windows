@@ -1381,8 +1381,6 @@ function loadSavedLanguage() {
 // ════════════════════════════════════════════════════════════
 // DOM REFERENCES
 // ════════════════════════════════════════════════════════════
-const powerToggleBtn       = document.getElementById('power-toggle');
-const powerLabelEl         = document.getElementById('power-label');
 
 const gateSlider           = document.getElementById('gate-slider');
 const gateValSpan          = document.getElementById('gate-val');
@@ -2319,27 +2317,16 @@ function selectSpeaker(index) {
   }
 }
 
-// ════════════════════════════════════════════════════════════
-// POWER TOGGLE
-// ════════════════════════════════════════════════════════════
-powerToggleBtn.addEventListener('click', () => {
-  voiceChangerBypass = !voiceChangerBypass;
-  applyBypassUI(voiceChangerBypass);
-  setBackendConfig({ bypass: voiceChangerBypass });
-});
-
 function applyBypassUI(bypass) {
+  // The power button in the floating bar is the only on/off control.
   const fcPowerBtn = document.getElementById('fc-power-btn');
-  powerToggleBtn.classList.toggle('live', !bypass);
-  powerToggleBtn.setAttribute('aria-pressed', String(!bypass));
-  powerToggleBtn.setAttribute('aria-checked', String(!bypass));
+  if (!fcPowerBtn) return;
+  const dict = I18N[localStorage.getItem(STORAGE_KEY_LANG)] || I18N.en;
   const stateKey = bypass ? 'power_off' : 'power_live';
-  powerLabelEl.setAttribute('data-i18n', stateKey);
-  powerLabelEl.textContent = (I18N[localStorage.getItem(STORAGE_KEY_LANG)] || I18N.en)[stateKey] || I18N.en[stateKey];
-  if (fcPowerBtn) {
-    fcPowerBtn.classList.toggle('active', bypass);
-    fcPowerBtn.classList.toggle('live', !bypass);
-  }
+  fcPowerBtn.classList.toggle('active', bypass);
+  fcPowerBtn.classList.toggle('live', !bypass);
+  fcPowerBtn.setAttribute('aria-pressed', String(!bypass));
+  fcPowerBtn.title = `${dict.power_label || I18N.en.power_label}: ${dict[stateKey] || I18N.en[stateKey]}`;
 }
 
 // ════════════════════════════════════════════════════════════

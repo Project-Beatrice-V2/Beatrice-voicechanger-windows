@@ -326,84 +326,6 @@ body.is-win .window-controls {
   margin-top: -6px;
 }
 
-/* ── POWER MODULE ───────────────────────────────────────── */
-.power-module { display: flex; flex-direction: column; gap: 10px; padding-bottom: 4px; }
-
-.power-module-label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.bypass-indicator {
-  font-family: var(--font-mono);
-  font-size: 8.5px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  padding: 3px 10px;
-  border-radius: 20px;
-  border: 1px solid transparent;
-}
-
-.bypass-indicator.active {
-  background: var(--red-dim);
-  color: var(--red);
-  border-color: var(--red-dim);
-}
-
-.bypass-indicator.live {
-  background: var(--accent-dim);
-  color: var(--accent);
-  border-color: var(--accent-dim);
-  box-shadow: 0 0 12px var(--accent-glow);
-  animation: pulse-glow 2s ease-in-out infinite;
-}
-
-.btn-power {
-  width: 100%;
-  height: 48px;
-  border-radius: 10px;
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-card);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  color: var(--text-mid);
-  transition: var(--ease-smooth);
-  -webkit-app-region: no-drag;
-}
-
-.btn-power:hover { background: var(--bg-card-hover); border-color: var(--border-hover); }
-.btn-power:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-.btn-power.active {
-  background: var(--bg-card);
-  border-color: var(--border-hover);
-  color: var(--text-mid);
-}
-
-.btn-power.active:hover { filter: brightness(1.05); }
-
-.btn-power.live {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--accent-text);
-  box-shadow: 0 0 24px var(--accent-glow), 0 4px 16px var(--shadow);
-}
-
-.btn-power.live:hover { filter: brightness(1.1); }
-
-.power-icon { width: 18px; height: 18px; flex-shrink: 0; }
-
-.btn-power-label {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
 /* ── CONTROL LABELS ─────────────────────────────────────── */
 .control-label {
   font-size: 11px;
@@ -2671,52 +2593,6 @@ html[data-color-mode="light"] .theme-card[data-theme="cyberpunk"] .tp-accent { b
   transition: var(--ease-fast);
 }
 .icon-btn:hover { color: var(--text-hi); border-color: var(--border-hover); }
-
-/* ── Power: a label and a small switch ───────────────────── */
-.power-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  width: 100%;
-  flex-shrink: 0;
-  padding: 4px 4px 4px 2px;
-  border: none;
-  background: none;
-  color: var(--text-hi);
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-  -webkit-app-region: no-drag;
-}
-.power-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
-.power-title { font-size: 13px; font-weight: 600; letter-spacing: -0.015em; }
-/* The state is announced to screen readers; the switch shows it visually. */
-.power-state { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-
-.power-switch {
-  width: 30px;
-  height: 18px;
-  flex-shrink: 0;
-  border-radius: var(--r-pill);
-  background: var(--track);
-  position: relative;
-  transition: background 0.2s ease, box-shadow 0.3s ease;
-}
-.power-knob {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-.power-row:hover .power-switch { background: var(--border-hover); }
-.power-row.live .power-switch { background: var(--green); box-shadow: 0 0 10px color-mix(in srgb, var(--green) 45%, transparent); }
-.power-row.live .power-knob { transform: translateX(12px); }
 
 /* ── Sliders ──────────────────────────────────────────────── */
 .slider-container { gap: 8px; }
