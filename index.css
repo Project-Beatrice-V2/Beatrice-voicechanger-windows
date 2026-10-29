@@ -2672,108 +2672,81 @@ html[data-color-mode="light"] .theme-card[data-theme="cyberpunk"] .tp-accent { b
 }
 .icon-btn:hover { color: var(--text-hi); border-color: var(--border-hover); }
 
-/* ── Power: the hero control ──────────────────────────────── */
-.power-module {
+/* ── Power: one compact row ───────────────────────────────── */
+.power-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-  padding: 16px 16px 20px;
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.4s ease, background 0.4s ease;
-}
-.power-module::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(70% 70% at 50% 62%, var(--green-dim), transparent 70%);
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none;
-}
-.power-module:has(.btn-power.live) { border-color: color-mix(in srgb, var(--green) 35%, transparent); }
-.power-module:has(.btn-power.live)::before { opacity: 1; }
-.power-module-label { width: 100%; display: flex; align-items: center; justify-content: space-between; position: relative; }
-
-.bypass-indicator {
-  font-family: var(--font-mono);
-  font-size: 9.5px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  padding: 3px 9px;
-  border-radius: var(--r-pill);
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-card);
-  color: var(--text-lo);
-}
-.bypass-indicator.active { color: var(--text-lo); background: var(--bg-card); border-color: var(--border-subtle); }
-.bypass-indicator.live { color: var(--green); background: var(--green-dim); border-color: color-mix(in srgb, var(--green) 35%, transparent); }
-
-.btn-power,
-.btn-power.active,
-.btn-power.live {
-  width: auto;
-  height: auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 12px;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  color: var(--text-mid);
+  width: 100%;
+  flex-shrink: 0;
+  padding: 10px 12px 10px 10px;
+  border-radius: var(--r-card);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-hi);
+  font: inherit;
+  text-align: left;
   cursor: pointer;
-  position: relative;
-  filter: none;
+  transition: border-color 0.25s ease, background 0.25s ease, box-shadow 0.35s ease;
+  -webkit-app-region: no-drag;
 }
-.btn-power:hover, .btn-power.active:hover, .btn-power.live:hover { background: transparent; filter: none; }
-.btn-power:focus-visible { outline: none; }
-.btn-power:focus-visible .power-orb { outline: 2px solid var(--accent); outline-offset: 4px; }
+.power-row:hover { border-color: var(--border-hover); background: var(--bg-card-hover); }
+.power-row:active .power-orb { transform: scale(0.94); }
+.power-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .power-orb {
-  width: 112px;
-  height: 112px;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  position: relative;
-  background: radial-gradient(circle at 50% 35%, var(--bg-card-hover), var(--bg-card) 70%);
+  color: var(--text-mid);
+  background: var(--bg-raised);
   border: 1px solid var(--border-hover);
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.3s ease, box-shadow 0.4s ease;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.25s ease, background 0.25s ease, border-color 0.25s ease, box-shadow 0.35s ease;
 }
-.btn-power:hover .power-orb { transform: scale(1.03); border-color: var(--text-lo); }
-.btn-power:active .power-orb { transform: scale(0.97); }
-.power-ring {
-  position: absolute;
-  inset: -7px;
-  border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--green) 45%, transparent);
-  opacity: 0;
-  transform: scale(0.92);
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-.power-icon { width: 34px; height: 34px; transition: color 0.3s ease, filter 0.3s ease; }
+.power-icon { width: 17px; height: 17px; }
 
-.btn-power.live { color: var(--green); }
-.btn-power.live .power-orb {
-  border-color: color-mix(in srgb, var(--green) 70%, transparent);
-  background: radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--green) 22%, transparent), color-mix(in srgb, var(--green) 6%, transparent) 70%);
-  box-shadow: 0 0 40px color-mix(in srgb, var(--green) 30%, transparent), inset 0 0 24px color-mix(in srgb, var(--green) 14%, transparent);
+.power-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; flex: 1; }
+.power-title { font-size: 13.5px; font-weight: 600; letter-spacing: -0.015em; }
+.power-state { font-size: 11.5px; color: var(--text-lo); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color 0.25s ease; }
+
+.power-switch {
+  width: 34px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: var(--r-pill);
+  background: var(--track);
+  position: relative;
+  transition: background 0.25s ease;
 }
-.btn-power.live .power-ring { opacity: 1; transform: scale(1); animation: power-breathe 2.4s ease-in-out infinite; }
-.btn-power.live .power-icon { filter: drop-shadow(0 0 8px color-mix(in srgb, var(--green) 70%, transparent)); }
+.power-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.power-row.live { border-color: color-mix(in srgb, var(--green) 40%, transparent); background: color-mix(in srgb, var(--green) 6%, var(--bg-card)); box-shadow: 0 0 24px color-mix(in srgb, var(--green) 12%, transparent); }
+.power-row.live .power-orb {
+  color: var(--green);
+  background: var(--green-dim);
+  border-color: color-mix(in srgb, var(--green) 60%, transparent);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--green) 35%, transparent);
+  animation: power-breathe 2.4s ease-in-out infinite;
+}
+.power-row.live .power-state { color: var(--green); }
+.power-row.live .power-switch { background: var(--green); }
+.power-row.live .power-knob { transform: translateX(14px); }
 @keyframes power-breathe {
-  0%, 100% { transform: scale(1); opacity: 0.9; }
-  50% { transform: scale(1.06); opacity: 0.35; }
-}
-.btn-power-label {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  color: inherit;
+  0%, 100% { box-shadow: 0 0 14px color-mix(in srgb, var(--green) 35%, transparent); }
+  50% { box-shadow: 0 0 4px color-mix(in srgb, var(--green) 15%, transparent); }
 }
 
 /* ── Sliders ──────────────────────────────────────────────── */

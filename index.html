@@ -42,23 +42,20 @@
         </div>
       </div>
 
-      <!-- Power Toggle -->
-      <div class="power-module card">
-        <div class="power-module-label">
-          <span class="control-label" data-i18n="power_label">Voice Changer</span>
-          <div class="bypass-indicator active" id="bypass-status" role="status" aria-live="polite">BYPASSED</div>
-        </div>
-        <button class="btn-power active" id="power-toggle" aria-pressed="false" aria-label="Toggle voice changer bypass">
-          <span class="power-orb" aria-hidden="true">
-            <span class="power-ring"></span>
-            <svg class="power-icon" viewBox="0 0 24 24" fill="none">
-              <path d="M12 3v9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-              <path d="M6.4 5.4A9 9 0 1 0 17.6 5.4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            </svg>
-          </span>
-          <span class="btn-power-label" id="power-label">BYPASSED</span>
-        </button>
-      </div>
+      <!-- Power Toggle: one compact row (orb · name and state · switch) -->
+      <button class="power-row" id="power-toggle" aria-pressed="false" aria-label="Toggle voice changer">
+        <span class="power-orb" aria-hidden="true">
+          <svg class="power-icon" viewBox="0 0 24 24" fill="none">
+            <path d="M12 3v9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M6.4 5.4A9 9 0 1 0 17.6 5.4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="power-text">
+          <span class="power-title" data-i18n="power_label">Voice Changer</span>
+          <span class="power-state" id="power-label" role="status" aria-live="polite">Off · your normal voice</span>
+        </span>
+        <span class="power-switch" aria-hidden="true"><span class="power-knob"></span></span>
+      </button>
 
       <!-- Audio Routing -->
       <div class="control-group card" role="group" aria-labelledby="audio-routing-heading">
