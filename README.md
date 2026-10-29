@@ -69,8 +69,8 @@
 ## 🚀 Get started
 
 1. **Download** from the [latest release](https://github.com/satiricalguru/Beatrice-voicechanger-windows/releases/latest):
-   - `Beatrice.Voice.Changer.Setup.2.2.0.exe`: the installer, with Start menu and desktop shortcuts (recommended)
-   - `Beatrice.Voice.Changer-2.2.0-win.zip`: portable, unzip and run `Beatrice Voice Changer.exe`
+   - `Beatrice.Voice.Changer.Setup.2.2.1.exe`: the installer, with Start menu and desktop shortcuts (recommended)
+   - `Beatrice.Voice.Changer-2.2.1-win.zip`: portable, unzip and run `Beatrice Voice Changer.exe`
 2. **Run it.** If Windows SmartScreen says it protected your PC, click **More info → Run anyway**. You do this once.
 3. **Click "Install VB-CABLE"** when Beatrice offers the virtual microphone. Beatrice downloads it from vb-audio.com and opens its installer: click **Install Driver** and allow the Windows prompt. Beatrice then selects **CABLE Input** as its output for you.
 4. **Press the power button** so it says **LIVE**, and pick a voice.

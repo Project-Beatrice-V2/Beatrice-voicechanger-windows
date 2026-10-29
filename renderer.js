@@ -2495,6 +2495,12 @@ async function loadAudioDevices() {
       }
     }
 
+    // Mac: BlackHole installed but not loaded by macOS yet; the main process
+    // offers to restart Core Audio (it checks the driver is really there).
+    if (process.platform === 'darwin' && ![...outputDeviceSelect.options].some(o => /blackhole/i.test(o.textContent))) {
+      ipcRenderer.send('virtual-mic-missing');
+    }
+
     if ([...inputDeviceSelect.options].some(o => o.value === selectedIn)) {
       inputDeviceSelect.value = selectedIn;
       setBackendConfig({ input_device_id: selectedIn });
