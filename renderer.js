@@ -2332,6 +2332,7 @@ function applyBypassUI(bypass) {
   const fcPowerBtn = document.getElementById('fc-power-btn');
   powerToggleBtn.classList.toggle('live', !bypass);
   powerToggleBtn.setAttribute('aria-pressed', String(!bypass));
+  powerToggleBtn.setAttribute('aria-checked', String(!bypass));
   const stateKey = bypass ? 'power_off' : 'power_live';
   powerLabelEl.setAttribute('data-i18n', stateKey);
   powerLabelEl.textContent = (I18N[localStorage.getItem(STORAGE_KEY_LANG)] || I18N.en)[stateKey] || I18N.en[stateKey];

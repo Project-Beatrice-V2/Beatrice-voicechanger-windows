@@ -42,18 +42,10 @@
         </div>
       </div>
 
-      <!-- Power Toggle: one compact row (orb · name and state · switch) -->
-      <button class="power-row" id="power-toggle" aria-pressed="false" aria-label="Toggle voice changer">
-        <span class="power-orb" aria-hidden="true">
-          <svg class="power-icon" viewBox="0 0 24 24" fill="none">
-            <path d="M12 3v9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <path d="M6.4 5.4A9 9 0 1 0 17.6 5.4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <span class="power-text">
-          <span class="power-title" data-i18n="power_label">Voice Changer</span>
-          <span class="power-state" id="power-label" role="status" aria-live="polite">Off · your normal voice</span>
-        </span>
+      <!-- Power Toggle: a label and a small switch -->
+      <button class="power-row" id="power-toggle" role="switch" aria-checked="false" aria-pressed="false">
+        <span class="power-title" data-i18n="power_label">Voice Changer</span>
+        <span class="power-state" id="power-label" role="status" aria-live="polite">Off · your normal voice</span>
         <span class="power-switch" aria-hidden="true"><span class="power-knob"></span></span>
       </button>
 
