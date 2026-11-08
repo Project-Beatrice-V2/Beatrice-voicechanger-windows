@@ -40,10 +40,38 @@ jobs:
           python -m py_compile beatrice_audio.py beatrice_loader.py tools/sound-art/fetch.py
           python -m py_compile build_dll/test_dll.py
       - run: npm ci
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+      - name: Fetch and verify the locked Electron runtime
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(node -p "require('./package-lock.json').packages['node_modules/electron'].version")
+          archive="electron-v$version-win32-x64.zip"
+          gh release download "v$version" --repo electron/electron --pattern "$archive" \
+            --pattern SHASUMS256.txt --dir build/ci-electron
+          python - "$archive" <<'PYTHON'
+          import hashlib
+          from pathlib import Path
+          import sys
+
+          cache = Path('build/ci-electron')
+          name = sys.argv[1]
+          expected = dict(
+              (filename.lstrip('*'), digest)
+              for digest, filename in (line.split() for line in (cache / 'SHASUMS256.txt').read_text().splitlines())
+          )[name]
+          with (cache / name).open('rb') as archive:
+              actual = hashlib.file_digest(archive, 'sha256').hexdigest()
+          if actual != expected:
+              raise SystemExit(f'Electron checksum mismatch for {name}')
+          PYTHON
+          python -m zipfile -e "build/ci-electron/$archive" build/ci-electron/runtime
       - name: Build local packages
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
-        run: npm run dist:win
+        run: npm run dist:win -- --config.electronDist=build/ci-electron/runtime
 
   dependency-review:
     name: Dependency review
